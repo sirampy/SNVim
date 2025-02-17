@@ -1,4 +1,4 @@
-local lazypath = vim.fn.stdpath("config") .. "/package_managers/lazy.nvim"
+local lazypath = vim.fn.stdpath("config") .. "/install/lazy.nvim"
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup( {
     spec = { 
